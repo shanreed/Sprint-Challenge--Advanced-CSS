@@ -1,1 +1,29 @@
 // Mixins Here
+
+.button(@width, @height, @bg-color, @font-color, @font-size, @border-radius) {
+    border-radius: @border-radius;
+    width: @width;
+    height: @height;
+    background-color: @bg-color;
+    color: @font-color;
+    font-size: @font-size;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 12px;
+    .button(100px, 35px, black, white, 1.8rem, 5px);
+    @media @phone {
+        .button(460px,70px,black, white,1.8rem, 5px);
+        padding-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    
+  }
+
+  .btn:hover {
+    background-color: #176BA1;
+    color: black;
+}
