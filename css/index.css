@@ -160,6 +160,26 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.main-navigation .logo-container {
+  display: flex;
+  justify-content: center;
+}
+.main-navigation .logo-container h1 {
+  font-size: 4rem;
+  margin-top: -9px;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 4px 750px 0 ;
+  margin-top: 15px;
+}
+.nav a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +189,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+body {
+  margin-top: 22px;
+}
+.home .intro .header-image {
+  margin-top: 12px;
+  max-width: 100%;
 }
 .home .intro h2 {
   padding: 15px;
